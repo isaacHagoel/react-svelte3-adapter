@@ -1,0 +1,38 @@
+{
+  "name": "react-svelte3-adapter",
+  "version": "0.1.0",
+  "description": "Enables using Svelte3 components within React apps, including two way communication between React and Svelte (props in, events out).",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacHagoel/react-svelte3-adapter.git"
+  },
+  "keywords": [
+    "React",
+    "Svelte",
+    "Svelte3",
+    "adapter"
+  ],
+  "author": "Isaac Hagoel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacHagoel/react-svelte3-adapter/issues"
+  },
+  "homepage": "https://github.com/isaacHagoel/react-svelte3-adapter#readme",
+  "peerDependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  }
+}
