@@ -50,7 +50,7 @@ SvelteAdapter.propTypes = {
     /** A class to add to the div that the svelte component mounts to (a.k.a it's container).*/
     containerClass: PropTypes.string,
     /** Inline containerStyles to add to the div that the svelte component mounts to (a.k.a it's container).*/
-    containerStyles: PropTypes.objectOf(PropTypes.string),
+    containerStyles: PropTypes.objectOf(PropTypes.string)
 };
 
 SvelteAdapter.defaultProps = {

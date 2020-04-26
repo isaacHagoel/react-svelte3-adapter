@@ -48,14 +48,13 @@ SvelteAdapter.propTypes = {
     /** An object that maps event-names to handler functions.
      * When the svelte component emits the event, the handler will be called.
      */
-
     listeners: PropTypes.objectOf(PropTypes.func),
-    /** A class to add to the div that the svelte component mounts to (a.k.a it's container).*/
     
+    /** A class to add to the div that the svelte component mounts to (a.k.a it's container).*/
     containerClass: PropTypes.string,
     
     /** Inline containerStyles to add to the div that the svelte component mounts to (a.k.a it's container).*/
-    containerStyles: PropTypes.objectOf(PropTypes.string),
+    containerStyles: PropTypes.objectOf(PropTypes.string)
 };
 ```
 
